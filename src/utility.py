@@ -92,7 +92,7 @@ def generate_valid_paths(matrix, buffer_size, sequences, input_file_name=None):
     # Siapkan output
     output = ""
     if not max_weight_solutions or (max_weight_solutions and max_weight_solutions[0][1] == 0):
-        output += "Maaf, tidak ada sekuen yang berhasil didapatkan.\n\n"
+        output += "Maaf, tidak ada sekuen yang berhasil didapatkan.\n"
     else:
         max_weight = max_weight_solutions[0][1]
         output += f"{max_weight}\n"
